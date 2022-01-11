@@ -16,22 +16,33 @@
   position: relative;
 }
 
+.dropdown-menu:hover .list {
+  display: block ;
+}
+
 button {
-  background-color: rgb(108, 238, 255);
+  background-color: rgb(108, 238, 255,0.8);
   padding: 16px;
   font-size: 16px;
   border: none;
+}
+button:hover {
+  background-color: rgb(108, 238, 255);
 }
 
 ul {
   position: absolute;
   left: -25%;
-  background-color: rgb(189, 188, 188);
   width: 160px;
   list-style: none;
   text-align: center;
+  display: none;
 }
 
 li {
   padding: 16px;
+  background-color: rgb(189, 188, 188);
+}
+li:hover{
+  background-color: rgb(189, 188, 188, 0.5);
 }
