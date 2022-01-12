@@ -1,10 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 .title {
@@ -23,4 +34,9 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.photoContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
 }
