@@ -29,6 +29,7 @@ body {
   border: none;
   border-radius: 5px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .popup-modal {
@@ -51,4 +52,19 @@ body {
   border: none;
   border-radius: 5px;
   font-weight: 600;
+}
+
+
+.button-container {
+  transition: background-color 0.5s ease-in, opacity 0.5s ease-in;
+}
+.button-container.show {
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.popup-modal.show {
+  opacity: 1;
+  margin-top: 0;
+  transition: margin-top 0.5s, opacity 0.5s;
 }
